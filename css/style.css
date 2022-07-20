@@ -394,6 +394,13 @@ color: #3D8B74;
   align-items: center;
   margin-left: 2px;
 }
+svg > path{
+  transition: .2s;
+}
+svg > path:hover{
+  fill: #40A385;
+  transition: .2s;
+}
 .advertisement__title{
   margin-top: 59px;
   font-size: 20px;
@@ -443,7 +450,7 @@ color: #3D8B74;
   margin-top: 19px;
   line-height: 20px;
 }
-/** ------------------- main__transition-about -------------------------  */
+/*? ------------------- main__transition-about -------------------------  */
 .main__transition-about{
   width: 470px;
   height: 26px;
@@ -452,7 +459,7 @@ color: #3D8B74;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 26px;
+  margin-top: 22px;
 }
 .main__transition-about a{
   font-weight: 400;
@@ -460,7 +467,9 @@ color: #3D8B74;
   line-height: 20px;
   letter-spacing: 1.5px;
   color: #232323;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .transition-about__previous{
   margin-right: 28px;
@@ -468,7 +477,7 @@ color: #3D8B74;
 .transition-about__link-number{
   width: 26px;
   height: 26px;
-  margin-right: 25px;
+  margin-right: 28px;
   transition: .3s;
 }
 .transition-about__link-number:hover{
@@ -480,8 +489,116 @@ color: #3D8B74;
   margin-right: 15px;
 }
 .transition-about__next{
-  margin: 0 14px 0 0px;
+  margin: 0 13px 0 10px;
 }
 .transition-about__arrow-right{
-  margin-right: 8px;
+  margin-right: 6px;
+}
+/* *------------------- footer ----------------- */
+.footer__registration{
+  width: 100%;
+  height: 100%;
+  background-color: #E2EEEA;
+  margin-top: 94px;
+  padding: 0 8px 64px 0;
+}
+.registration__title{
+  width: 100%;
+  text-align: center;
+  padding: 67px 20px 0 20px;
+}
+.registration__subtitle{
+  width: 691px;
+  margin: 0 auto;
+  margin-top: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.registration-reg{
+  width: 100%;
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration-reg input{
+  height: 55px;
+  padding: 17px 26px 18px 26px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #797979;
+  font-style: oblique;
+}
+.registration__input-name{
+  width: 245px;
+  margin-right: 22px;
+}
+.registration__input-email{
+  width: 368px;
+  margin-right: 23px;
+}
+.registration__button{
+  font-family: 'Josefin Sans';
+  width: 133px;
+  height: 55px;
+  background: #3D8B74;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .3s;
+}
+.registration__button:hover{
+  background-color: #40A385;
+  transition: .3s;
+}
+/* ?----------------- footer social network ----------------- */
+.footer__social-network{
+  width: 100%;
+  background-color: #232323;
+  justify-content: center;
+  padding: 46px 8px 42px 0;
+}
+.social-network__img{
+  width: 100%;
+
+}
+.social-network__img img{
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.social-network__title{
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 24px;
+}
+.social-network__icons{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
+}
+.social-network__icons a:not(:last-child){
+  margin-right: 28px;
+}
+.lower-footer{
+  width: 100%;
+  padding: 34px 8px 34px 0;
+  background: #323232;
+}
+.lower-footer__text{
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
 }

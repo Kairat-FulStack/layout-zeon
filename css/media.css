@@ -150,8 +150,63 @@
         font-size: 14px;
         margin-top: 15px;
     }
-    /** ------------------- main__transition-about -------------------------  */
+    /*? ------------------- main__transition-about -------------------------  */
     .main__transition-about a{
+        font-size: 14px;
+    }
+    /** -------------------- footer -------------------- */
+    .footer__registration{
+        margin-top: 40px;
+        padding: 0 0 40px 0;
+    }
+    .registration__title{
+        padding: 40px 20px 0 20px;
+        font-size: 20px;
+    }
+    .registration__subtitle{
+        width: 60%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .registration-reg{
+        margin-top: 20px;
+    }
+    .registration-reg input{
+        height: 35px;
+        padding: 17px 15px 18px 15px;
+        font-size: 14px;
+        border-radius: 5px;
+      }
+    .registration__input-name{
+        width: 15%;
+        margin-right: 15px;
+      }
+    .registration__input-email{
+        width: 25%;
+        margin-right: 15px;
+    }
+    .registration__button{
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    /* ?----------------- footer social network ----------------- */
+    .footer__social-network{
+        padding: 30px 0;
+    }
+    .social-network__title{
+        font-size: 34px;
+        margin-top: 15px;
+    }
+    .social-network__icons{
+        margin: 10px 0;
+    }
+    .lower-footer{
+        padding: 20px 0;
+    }
+    .lower-footer__text{
         font-size: 14px;
     }
 }
@@ -226,6 +281,7 @@
         width: 180px;
         height: 35px;
         font-size: 13px;
+        margin-top: 10px;
         margin-top: 10px;
     }
     /* *------------- section main ----------- */
@@ -314,6 +370,50 @@
         height: 20px;
         margin-right: 10px;
       }
+      /** -------------------- footer -------------------- */
+    .footer__registration{
+        margin-top: 20px;
+        padding: 0 0 20px 0;
+    }
+    .registration__title{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .registration__subtitle{
+        font-size: 12px;
+        width: 50%;
+        margin-top: 8px;
+    }
+    .registration-reg{
+        margin-top: 10px;
+    }
+    .registration-reg input{
+        font-size: 12px;
+      }
+    .registration__button{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    /* ?----------------- footer social network ----------------- */
+    .footer__social-network{
+        padding: 20px 0;
+    }
+    .social-network__img img{
+        width: 80px;
+    }
+    .social-network__title{
+        font-size: 32px;
+        margin-top: 10px;
+    }
+    .social-network__icons{
+        margin: 8px 0;
+    }
+    .lower-footer{
+        padding: 10px 0;
+    }
+    .lower-footer__text{
+        font-size: 12px;
+    }
 }
 /*? ----------------------- 662px ------------------------  */
 @media (max-width: 662px){
@@ -349,6 +449,35 @@
     /** ------------------- main__transition-about -------------------------  */
     .main__transition-about {
         width: 80%;
+    }
+    /** -------------------- footer -------------------- */
+    .registration__subtitle{
+        width: 80%;
+    }
+    .registration-reg{
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .registration-reg input{
+        width: 90%;
+        margin: 0 auto;
+        margin: 5px;
+      }
+    .registration__button{
+        margin-top: 10px;
+    }
+    /* ?----------------- footer social network ----------------- */
+    
+    .social-network__img img{
+        width: 70px;
+    }
+    .social-network__title{
+        font-size: 30px;
+    }
+    .lower-footer{
+        padding: 10px 0;
     }
 }    
 
